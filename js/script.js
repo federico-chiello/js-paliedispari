@@ -43,3 +43,10 @@ if (somma % 2 == 0) {
 }
 
 // (5) Quinto step
+var vittoria = 'Vince il numero pari';
+
+if (somma % 2 != 0) {
+  vittoria = 'Vince il numero dispari';
+}
+
+document.getElementById('vincitore').innerHTML = vittoria;
