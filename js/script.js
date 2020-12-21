@@ -8,7 +8,7 @@
 
 // (1) Primo step
 // variabile
-  var numeroUtente = prompt('Inserisci un numero compreso tra 1 e 5:');
+  var numeroUtente = parseInt(prompt('Inserisci un numero compreso tra 1 e 5:'));
   console.log(numeroUtente);
 // condizione
   if (numeroUtente > 5) {
@@ -19,8 +19,11 @@
 // variabile
 var numeroComputer = generaNumero(1, 5);
 console.log(numeroComputer);
-
 // Funzione
 function generaNumero(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
+// (3) Terzo step
+var risultato = numeroUtente + numeroComputer;
+console.log(risultato);
