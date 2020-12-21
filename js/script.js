@@ -8,6 +8,8 @@
 
 // (1) Primo step
 // variabile
+  var pariDispari = prompt('Scegli pari o dispari:');
+  console.log(pariDispari);
   var numeroUtente = parseInt(prompt('Inserisci un numero compreso tra 1 e 5:'));
   console.log(numeroUtente);
 // condizione
