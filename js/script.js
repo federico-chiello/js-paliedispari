@@ -26,4 +26,20 @@ function generaNumero(min, max) {
 
 // (3) Terzo step
 var risultato = numeroUtente + numeroComputer;
-console.log(risultato);
+// console.log(risultato);
+
+// (4) Quarto step
+function sommaNumeri (num1, num2) {
+  return num1 + num2;
+}
+
+var somma = sommaNumeri (numeroUtente, numeroComputer);
+console.log(somma);
+
+if (somma % 2 == 0) {
+  console.log('Pari');
+} else if(somma % 2 != 0){
+  console.log('Dispari');
+}
+
+// (5) Quinto step
